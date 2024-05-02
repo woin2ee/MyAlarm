@@ -11,6 +11,12 @@ let targets: [Target] = []
 let project = Project(
     name: env.projectName,
     organizationName: env.organizationName,
+    settings: .settings(
+        debug: SettingsDictionary().otherLinkerFlags([
+            "-Xlinker",
+            "-interposable"
+        ])
+    ),
     targets: targets,
     schemes: [],
     additionalFiles: []

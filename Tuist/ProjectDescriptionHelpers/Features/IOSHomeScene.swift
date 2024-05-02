@@ -18,5 +18,5 @@ public let iOSHomeSceneFeature = FeatureManifest(
     ],
     testsDependencies: [
     ],
-    adoptedModules: [.source, .unitTests]
+    adoptedModules: [.source, .unitTests, .example(product: .app)]
 )

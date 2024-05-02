@@ -14,6 +14,7 @@ public let iOSSceneBaseFeature = FeatureManifest(
     featureDependencies: [
     ],
     externalDependencies: [
+        .external(name: .inject),
         .external(name: .pinLayout),
         .external(name: .reactorKit),
         .external(name: .rxCocoa),
