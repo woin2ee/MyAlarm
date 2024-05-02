@@ -6,9 +6,12 @@
 //  Copyright © 2024 woin2ee. All rights reserved.
 //
 
+import RxSwift
 import UIKit
 
 open class BaseViewController: UIViewController {
+    
+    public var disposeBag = DisposeBag()
     
     open override func viewDidLoad() {
         super.viewDidLoad()
