@@ -13,6 +13,7 @@ public let iOSHomeSceneFeature = FeatureManifest(
     ]),
     featureDependencies: [
         iOSSceneBaseFeature,
+        alarmManagementFeature,
     ],
     externalDependencies: [
     ],

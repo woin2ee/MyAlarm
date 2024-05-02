@@ -7,6 +7,7 @@ let targets: [Target] = []
 + iOSAppFeature.resolveModules()
 + iOSSceneBaseFeature.resolveModules()
 + iOSHomeSceneFeature.resolveModules()
++ alarmManagementFeature.resolveModules()
 
 let project = Project(
     name: env.projectName,
