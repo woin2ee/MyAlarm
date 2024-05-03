@@ -14,13 +14,16 @@ public let iOSSceneBaseFeature = FeatureManifest(
     featureDependencies: [
     ],
     externalDependencies: [
+        .external(name: .foundationPlus),
         .external(name: .inject),
         .external(name: .pinLayout),
         .external(name: .reactorKit),
         .external(name: .rxCocoa),
         .external(name: .rxSwift),
         .external(name: .sfSafeSymbols),
+        .external(name: .swinject),
         .external(name: .then),
+        .external(name: .uikitPlus),
     ],
     adoptedModules: [.source]
 )

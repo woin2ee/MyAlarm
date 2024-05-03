@@ -1,7 +1,16 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-
+    "Alarms" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "알람"
+          }
+        }
+      }
+    }
   },
   "version" : "1.0"
 }

@@ -8,27 +8,27 @@
 
 import ReactorKit
 
-final class HomeReactor: Reactor {
+public final class HomeReactor: Reactor {
 
-    enum Action {
+    public enum Action {
         
     }
     
-    enum Mutation {
+    public enum Mutation {
         
     }
     
-    struct State {
+    public struct State {
         
     }
     
-    var initialState = State()
+    public var initialState = State()
     
-    func mutate(action: Action) -> Observable<Mutation> {
+    public func mutate(action: Action) -> Observable<Mutation> {
         fatalError("Not implemented.")
     }
     
-    func reduce(state: State, mutation: Mutation) -> State {
+    public func reduce(state: State, mutation: Mutation) -> State {
         var state = state
         
         

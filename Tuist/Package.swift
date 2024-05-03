@@ -20,8 +20,8 @@ let package = Package(
     dependencies: [
         // RxSwift
         .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "6.6.0"),
-//        // Swinject
-//        .package(url: "https://github.com/Swinject/Swinject.git", from: "2.8.0"),
+        // Swinject
+        .package(url: "https://github.com/Swinject/Swinject.git", from: "2.8.0"),
 //        // SwinjectExtension
 //        .package(url: "https://github.com/Woin2ee-Modules/SwinjectExtension.git", from: "2.0.0"),
 //        // SnapKit
@@ -56,5 +56,7 @@ let package = Package(
 //        .package(url: "https://github.com/apple/swift-collections.git", from: "1.0.0"),
         // Inject
         .package(url: "https://github.com/krzysztofzablocki/Inject.git", from: "1.2.4"),
+//        // swift-syntax
+//        .package(url: "https://github.com/apple/swift-syntax.git", from: "509.0.0"),
     ]
 )
